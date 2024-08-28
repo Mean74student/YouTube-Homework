@@ -159,11 +159,15 @@ main{
 }
 button{
     padding: 0px 10px;
-    height: 25px;
-    border-radius: 10px;
+    height: 30px;
+    border-radius: 5px;
     cursor: pointer;
     border: none;
 
+}
+button:hover{
+    background: #dadee2;
+    transition: background-color 0.3s ease;
 }
 button:nth-child(1){
     background: #000;
